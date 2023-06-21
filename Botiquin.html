@@ -1,0 +1,84 @@
+<html>
+<head>
+  <style>
+    .img {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 15px;
+    }
+
+    .img img {
+      width: 200px;
+      height: 100%;
+    }
+    .button {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 15px;
+    }
+
+    .button button {
+      width: 204px;
+      height: 200%;
+      background-color: #0d2881;
+      color: white;
+      border: #0d2881;
+      cursor: pointer; 
+    }
+
+  </style>
+</head>
+<body>
+    <hr  color="blue" width="75%" size="25" noshade>
+    <br><br>
+    <FONT SIZE="4" FACE="Berlin Sans FB" COLOR="black">
+    <p align="center" style="font-size: 60px; margin-top: 0; margin-bottom: 10;">MEDICAMENTOS</p>
+    <hr  color="blue" width="75%" size="25" noshade>
+    <br><br><br>
+</FONT>
+<form action="carrito.php" method="post">
+  <div class="img">
+    <img src="p13.jpg" style="border: 2px solid blue;" alt="Imagen 1">
+    <img src="p14.jpg" style="border: 2px solid blue;" alt="Imagen 2">
+    <img src="p15.jpg" style="border: 2px solid blue;" alt="Imagen 3">
+    <img src="p16.jpg" style="border: 2px solid blue;" alt="Imagen 4">
+  </div>
+  <div class="button">
+    <button onclick="location.href='carrito.php'" name="p13"><b>AGREGAR</b></button>
+    <button onclick="location.href='carrito.php'" name="p14"><b>AGREGAR</b></button>
+    <button onclick="location.href='carrito.php'" name="p15"><b>AGREGAR</b></button>
+    <button onclick="location.href='carrito.php'" name="p16"><b>AGREGAR</b></button>
+  </div>
+  <br><br><br>
+  <div class="img">
+    <img src="p17.jpg" style="border: 2px solid blue;" alt="Imagen 5">
+    <img src="p18.jpg"  style="border: 2px solid blue;" alt="Imagen 6">
+    <img src="p19.jpg" style="border: 2px solid blue;" alt="Imagen 7">
+    <img src="p20.jpg"  style="border: 2px solid blue;" alt="Imagen 8">
+  </div> 
+  <div class="button">
+    <button onclick="location.href='carrito.php'" name="p17"><b>AGREGAR</b></button>
+    <button onclick="location.href='carrito.php'" name="p18"><b>AGREGAR</b></button>
+    <button onclick="location.href='carrito.php'" name="p19"><b>AGREGAR</b></button>
+    <button onclick="location.href='carrito.php'" name="p20"><b>AGREGAR</b></button>
+  </div>  
+  <br><br><br>
+  <div class="img">
+    <img src="p21.jpg" style="border: 2px solid blue;" alt="Imagen 9">
+    <img src="p22.jpg"  style="border: 2px solid blue;" alt="Imagen 10">
+    <img src="p23.jpg" style="border: 2px solid blue;" alt="Imagen 11">
+    <img src="p24.jpg"  style="border: 2px solid blue;" alt="Imagen 12">
+  </div> 
+  <div class="button">
+    <button onclick="location.href='carrito.php'" name="p21"><b>AGREGAR</b></button>
+    <button onclick="location.href='carrito.php'" name="p22"><b>AGREGAR</b></button>
+    <button onclick="location.href='carrito.php'" name="p23"><b>AGREGAR</b></button>
+    <button onclick="location.href='carrito.php'" name="p24"><b>AGREGAR</b></button>
+  </div>
+  <br><br><br><br><br><br>
+</form>
+  <p align="center">
+  <button onclick="location.href='index.html'" style="background-color: #0d2881; color: white; border: solid;  border-width: 4px; cursor: pointer; width: 200px; height: 50px;" ><b>REGRESAR</b></button>
+    </p>
+</body>
+</html>

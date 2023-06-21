@@ -1,0 +1,115 @@
+<html>
+<head><title>PRO SALUD</title>
+
+<style>
+
+.slider{
+background-color: white;
+overflow: hidden; 
+margin-bottom: 0px;
+margin-top: 0px; }
+
+.slider img{
+border: solid;
+border-width: 7px;
+border-color: white;
+display: none; }
+
+.slider img:first-child{
+display: block; }
+
+table{
+border: solid;
+border-width: 5px;
+border-color: #09a6e4;
+background-color: #09a6e4;
+font-size: 23px;
+margin-bottom: 0px;
+margin-top: 0px; }
+
+button{
+width: auto;
+height: 35px;
+background-color: #0d2881;
+color: white;
+border: solid;
+border-width: 4px; 
+cursor: pointer; }
+
+</style></head>
+<body bgcolor="#0d2881" marginheight="0" marginwidth="0">
+<font face="Arial, sans-serif;" color="white" style="text-shadow: -0.2em 0.2em 0.2em black;">
+
+    <div style="background-color: white;">
+        <br><table align="center" style="color: white;"><tr><td><p align="left">
+        <img src="logo.png" width="130" height="60" vspace="5" hspace="5" 
+        style="border: solid; border-color: #09a6e4; border-width: 4px;"></p></td>
+        <td>&nbsp;&nbsp;PRO SALUD</td>
+        <td>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="Medicamentos.html" style="color: white;">Medicamentos</a></td>
+        <td>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="Botiquin.html" style="color: white;">Botiquin</a></td>
+        <td>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="Vitaminas.html" style="color: white;">Vitaminas</a></td>
+        <td>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="Otros.html" style="color: white;">Otros</a></td>
+        <td>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><button onclick="location.href='sesion.html'"><b>Iniciar sesión</b></button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr></table><br>
+        <hr size="5" color="white" style="margin-top: 0;"></div>
+<div class="main">
+<p align="center" style="font-size: 60px; margin-top: 0; margin-bottom: 10;">
+PRO SALUD</p>
+<div align="center" class="slider">
+<img src="img_01.jpg" width="1300" height="300">
+<img src="img_02.jpg" width="1300" height="300">
+<img src="img_03.jpg" width="1300" height="300">
+</div>
+<div style="margin-left: 10; margin-top: 13;">
+</p></div>
+<br></div><hr size="4" color="white" style="margin-bottom: 0; margin-top: 0;">
+<br>
+<div><p align="center" style="font-size: 40px; margin-top: 0; margin-bottom: 5;">Marcas Estelares</p><br>
+<div style="background-color: #09a6e4;">
+<marquee scrolldelay="61" style="direction: revert;">
+<p style="font-size: 25px; margin-top: 0; margin-bottom: 5;"><b>
+BAYER&nbsp;&nbsp;&nbsp;NEUTROGENA&nbsp;&nbsp;&nbsp;GARNIER&nbsp;&nbsp;&nbsp;RINOMAR&nbsp;&nbsp;&nbsp;GSK&nbsp;&nbsp;&nbsp;ASPIRINA ADVANCE
+&nbsp;&nbsp;&nbsp;ENTEROGERMINA&nbsp;&nbsp;&nbsp;IPRIKENE&nbsp;&nbsp;&nbsp;AURAX&nbsp;&nbsp;&nbsp;AL NATURAL</b></p></marquee>
+</div></div></div>
+
+<script>
+var slideIndex=0;
+showSlides();
+
+function showSlides(){
+var i;
+var slides=document.getElementsByClassName("slider")[0].getElementsByTagName("img");
+for(i=0; i<slides.length; i++) {
+slides[i].style.display="none"; }
+slideIndex++;
+if(slideIndex>slides.length){
+slideIndex=1; }
+slides[slideIndex-1].style.display="block";  
+setTimeout(showSlides, 6000); }
+</script>
+
+<hr size="4" color="white" style="margin-bottom: 0; margin-top: 0;">
+
+<div style="background-color: #0d2881;"><table align="center" cellspacing="0" cellpadding="10" style="color: white;">
+<tr><td style="font-size: 18px;">
+Todos los derechos reservados 2023 © PRO SALUD Farmacia <br></td>
+<br><br>
+<td style="font-size: 18px;">¡Danos tu opinion! &nbsp;&nbsp;
+<button onclick="location.href='Formulario.html'"><b>Formulario de opinion</b></button></td>
+<br><br>
+<td style="font-size: 18px;">Redes sociales:</td>
+<td>
+<img src="tw.png" width="70" height="70" ></td>
+<td>
+<img src="fc.png" width="70" height="70"></td>
+<td>
+<img src="ig.jpg" width="70" height="70"></td>
+</tr></table></div>
+</font>
+</body>
+</html>
